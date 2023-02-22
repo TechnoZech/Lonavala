@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    /* position:sticky; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header-image{
+    height: auto;
+    width: 20%;
+    background-color: #FFEFAA;
+}
+.header-navbar{
+    height: auto;
+    width: 80%;
+    padding: 22px 0 0 0;
+    background-color: #FFEFAA;
+}
+.navbar{
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    background-color: #B6D47E;
+    border-radius: 2rem;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,1) , 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.navbar li{
+    /* list-style: none; */
+    /* text-decoration: none; */
+    padding: 10px;
+    /* color: #003d4d; */
+    /* font-weight: 400; */
+    font-family: 'Poppins', sans-serif;
+    /* font-style:initial; */
+    font-size: 20px;
+    /* line-height: 50px; */
+    /* font-size:large; */
+    /* font-family:futura-lt-w01-book, futura-lt-w05-book, sans-serif ; */
+}
+.navbar a{
+    color: #003d4d;
+    text-decoration: none;
+    font: weight 1px;;
+    /* font-family: futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 50px; */
+}
+.navbar a:hover{
+    color:black;
+}
+.horizontal-line{
+    height: 50px;
+    width: 1px;
+    border: 1px solid black;
+}
+.header-image img{
+    height: auto;
+    width: auto;
+    padding: 15px 20px 15px 50px;
+}
+.icon{
+    background-color: #DBE8C3;
+    padding-bottom: 20px;
+    /* font-stretch: condensed; */
+    
+}
+.icon img{
+    margin-left:350px;
+    background-color: #DBE8C3;
+}
+.icon p{
+    font-family: futura-lt-w01-light, sans-serif;
+    font-size: 28px;
+    color: #007b9a;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.content-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #B6D47E;
+    border-top: 5px solid #CFCFCF;
+
+}
+.content-head h1{
+    font-family: dinneuzeitgroteskltw01-_812426, sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    font-stretch: ultra-condensed;
+    color: #003d4d;
+    padding: 20px;
+    text-align: center;
+}
+.content-head p{
+    margin: auto;
+    width: 60%;
+    font-family: futura-lt-w01-book, sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    /* font-stretch: ultra-condensed; */
+    color: #20303c;
+    padding: 20px;;
+    text-align: center;
+}
+.content-list{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box {
+    height: 350px;
+    width: 25%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: ;
+}
+.box a{
+    font-family: dinneuzeitgroteskltw01-_812426, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.box p{
+    margin-left: 50px;
+    width: 70%;
+    margin-top: 50px;
+    font-family: avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #ffffff;
+}
+#content-list-1{
+    background-color: #B6D47E;
+}
+#content-list-3{
+    background-color: #B6D47E;
+}
+#content-list-2 {
+    background-color: #00B9E8;
+}
+#content-list-4{
+    background-color: #00B9E8;
+}
+span{
+    color: #ffffff;
+    position: relative;
+    top:50px;
+    right: 100px;
+    
+    
+}
+
+
+#arrow4 a{
+    /* padding-bottom: 20px; */
+    position: relative;
+    right: 0px;
+    bottom: 20px;
+
+}
+.content-footer img{
+    margin-top: 20px;
+}
+.content-footer{
+    background-color: #FFEFAA;
+    text-align: center;
+}
+.content-footer p{
+    width: 38%;
+    margin-left:400px;
+    color: #007b9a;
+    font-family: proxima-n-w01-reg, proxima-n-w05-reg, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.content-footer h5{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    color: #007b9a;
+    font-family: proxima-n-w01-reg, proxima-n-w05-reg, sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.arrow a{
+    text-decoration: none;
+}
+.content-image-slider img{
+    width: 100%;
+}
+/* .hover-image{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 300px;
+}
+
+#hover-image-1{
+    background-image: url(/Images/Golf\ court\ 1.jpg);
+    height: 200px;
+    width:300px ;
+    background-repeat: no-repeat;
+}
+#hover-image-2{
+    background-image: url(/Images/Golf\ court\ 2.jpg);
+}
+#header-image-3{
+    background-image: url(/Images/Golf\ court\ 3.jpg);
+}
+#hover-image-1:hover{
+    color: blue;
+} */
+/* .hidden{
+    display: none;
+}
+.hidden:hover{
+    display:block
+} */
